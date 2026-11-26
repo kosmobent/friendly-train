@@ -8,3 +8,4 @@ FROM node:26-alpine
 WORKDIR /app
 COPY --from=builder /app .
 CMD ["node", "server.js"]
+#lol
