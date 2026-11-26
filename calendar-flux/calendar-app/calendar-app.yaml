@@ -29,7 +29,3 @@ spec:
   values:
     image:
       tag: main-1 # {"$imagepolicy": "calendar-app:calendar-app:tag"}
-    mariadb:
-      podSecurityContext:
-        appArmorProfile:
-          type: Unconfined
